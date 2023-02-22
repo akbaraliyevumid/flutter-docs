@@ -35,10 +35,10 @@ return MaterialApp(
             GlobalMaterialLocalizations.delegate,
             GlobalWidgetsLocalizations.delegate,
       ],
-     supportedLocales: [
-          const Locale('zh'),
-          const Locale('ar'),
-          const Locale('ja'),
+     supportedLocales: const [
+          Locale('zh'),
+          Locale('ar'),
+          Locale('ja'),
       ],
       locale: const Locale('zh'),
       title: 'DateRangePicker Localization',
